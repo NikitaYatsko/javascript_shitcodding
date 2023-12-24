@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: aqua;
+}
+
+h3 {
+  color: aqua;
+}
+
+.addTask {
+  color: aqua;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.line {
+  width: 50%;
+  height: 3px;
+  background-color: aqua;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.container .header {
+  background-color: black;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 15px 0 15px;
+}
+.container .header .todoLogo {
+  text-align: center;
+}
+.container .todo_list_section {
+  margin-top: 15px;
+  text-align: center;
+  background: #000000;
+  min-height: 200px;
+  padding: 20px 100px 20px 100px;
+}
+.container .todo_list_section .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+.container .todo_list_section .wrapper .task {
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px 0 20px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  color: aqua;
+}
+.container .todo_list_section .wrapper .task .done {
+  background: transparent;
+  border: none;
+  border: 1px solid white;
+  color: aqua;
+  height: 20px;
+  width: 100px;
+}
+
+.menu {
+  position: absolute;
+  left: 76%;
+  top: 0;
+  min-height: 100px;
+  width: 250px;
+  background-color: #000000;
+  padding: 20px 20px;
+  text-align: center;
+}
+.menu .addTask_menu {
+  cursor: pointer;
+  margin-top: 15px;
+  color: aqua;
+}
+.menu .validation {
+  color: red;
+}
+.menu .write_task {
+  height: 30px;
+}
